@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "job applicaion task",
   "main": "app.js",
+  "git repository": "https://github.com/marjen0/application-task",
+  "test command": "npm test",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
