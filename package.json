@@ -9,5 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marijus Jenulis",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
