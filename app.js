@@ -1,6 +1,7 @@
 'use strict'
 const fs = require('fs');
 const Operation = require('./classes/Operation');
+const User = require('./classes/User');
 
 /**
  * Reads data of given json file

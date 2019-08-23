@@ -1,4 +1,5 @@
 const OperationDetails = require('./OperationDetails');
+const User = require
 const { getCashInCommissions, 
     getCashOutCommissionsJuridical, 
     getCashOutCommissionsNatural
@@ -7,8 +8,7 @@ const { getCashInCommissions,
 class Operation {
     constructor(options) {
         this.date = new Date(options.date)
-        this.type = options.type;
-        this.userId = options.userId;
+        this.user = 
         this.userType = options.userType;
         this.details = new OperationDetails(options.details);
     }

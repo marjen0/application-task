@@ -1,6 +1,6 @@
 class User {
     constructor(id, type) {
         this.id = id;
-        this.type
+        this.type = type;
     }
 }
