@@ -9,6 +9,10 @@ npm install
 
 node app.js 'path to json file'
 
+# Run tests
+
+npm test
+
 ### Author
 
 Marijus Jenulis
