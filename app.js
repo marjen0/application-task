@@ -1,12 +1,14 @@
 'use strict'
 const fs = require('fs');
 const Operation = require('./classes/Operation');
-const User = require('./classes/User');
 
 /**
  * Reads data of given json file
  */
 const readJsonFile = function readDatafromCommandLineArgument(file) {
+    if (!file) {
+        throw new Error('No file provided')
+    }
     try {
         const rawData = fs.readFileSync(file);
         const parsedData = JSON.parse(rawData);
