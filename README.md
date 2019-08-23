@@ -1,13 +1,13 @@
 
 ## Quick Start
 ``` bash
-# Install dependencies for server
+# Install dependencies for application
 
 npm install
 
 # Run app
 
-node app.js
+node app.js 'path to json file'
 
 ### Author
 
